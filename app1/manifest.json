@@ -1,0 +1,16 @@
+{
+  "name": "App1",
+  "short_name": "App1",
+  "description": "PWA Example",
+  "icons": [
+    {
+      "src": "/icons/icon-yellow.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/app1",
+  "display": "fullscreen",
+  "theme_color": "#F0FF44",
+  "background_color": "#FFFFFF"
+}

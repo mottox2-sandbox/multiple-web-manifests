@@ -1,0 +1,19 @@
+<meta name="viewport" content="width=device-width">
+<link rel="manifest" href="/app2/manifest.json">
+
+<a href="/">Root</a>
+<a href="/dir1">Sub Directory</a>
+<a href="/app1">App1</a>
+<a href="/app2">App2</a>
+
+<h1>This is app2 page</h1>
+
+<script>
+  navigator.serviceWorker.register('/sw.js')
+    .then(() => {
+      console.log('Service worker is registered!');
+    })
+    .catch((err) => {
+      console.log('Service worker is not registered!', err);
+    });
+</script>

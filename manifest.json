@@ -1,0 +1,16 @@
+{
+  "name": "Root App",
+  "short_name": "Root App",
+  "description": "PWA Example",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#5200CD",
+  "background_color": "#FFFFFF"
+}
